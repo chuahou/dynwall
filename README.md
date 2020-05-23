@@ -67,4 +67,3 @@ images/all.
 ## Dependencies
 
 - GNOME based desktop environment
-- Git LFS
