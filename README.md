@@ -59,7 +59,7 @@ to some init file (not tested).
 
 ## Custom wallpapers
 
-Simply fill the images folder with your choice of wallpapers from 0.png to
+Simply fill the images folder with your choice of wallpapers from 00.png to
 23.png, corresponding to the hour you want them to appear. Symlinks are allowed;
 in fact the default ones are symlinks to a collection of screenshots in
 images/all.
