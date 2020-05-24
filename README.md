@@ -43,6 +43,11 @@ We set the job to run at minute 1, so that there is no chance of any mistake
 with cron triggering the job just before the hour and `date +"%H"` returning the
 previous hour.
 
+Since cron only runs this at the start of every hour, **you should also call
+dynwall by adding dynwall to your startup applications** suitable for
+your desktop environment. If you do not, the wallpaper will not be properly set
+at login. For example, if you are using i3, run it with exec in your i3config.
+
 To trigger manually, run dynwall.sh directly. The cron job will ensure it
 updates every hour.
 
